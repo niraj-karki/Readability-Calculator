@@ -1,0 +1,966 @@
+As we discussed in 7Chap. 2, the prevalence is the frequency of an event in a population; it is a useful starting point for estimating
+probability. For example, if you wanted to estimate the probability of prostate cancer in a
+50-year-old man, the prevalence of prostate
+cancer in men of that age (5–14%) would be a
+useful anchor point from which you could increase or decrease the probability depending
+on your fndings. Estimates of disease prevalence in a defned population often are available in the medical literature.
+Symptoms, such as diffculty with urination, or signs, such as a palpable prostate nodule, can be used to place patients into a clinical
+subgroup in which the probability of disease is
+known. For patients referred to a urologist for
+evaluation of a prostate nodule, the prevalence of cancer is about 50%. This approach
+may be limited by diffculty in placing a patient in the correct clinically defned subgroup,
+especially if the criteria for classifying patients
+are ill-defned. A trend has been to develop
+guidelines, known as clinical prediction rules,
+to help clinicians assign patients to well-defned subgroups in which the probability of
+disease is known.
+Clinical prediction rules are developed from
+systematic study of patients who have a particular diagnostic problem; they defne how clinicians can use combinations of clinical fndings
+to estimate probability. The symptoms or signs
+that make an independent contribution to the
+probability that a patient has a disease are identifed and assigned numerical weights based on
+statistical analysis of the fnding’s contribution.
+The result is a list of symptoms and signs for an
+individual patient, each with a corresponding
+numerical contribution to a total score. The total score places a patient in a subgroup with a
+known probability of disease.
+► Example 3.5
+Ms. Troy, a 65-year-old woman who had a heart
+attack 4 months ago, has abnormal heart rhythm
+(arrhythmia), is in poor medical condition, and
+is about to undergo elective surgery. ◄
+What is the probability that Ms. Troy will
+suffer a cardiac complication? Clinical prediction rules have been developed to help clinicians to assess this risk (Palda and Detsky
+1997). .Table 3.1 lists clinical fndings and
+their corresponding diagnostic weights. We
+add the diagnostic weights for each of the
+patient’s clinical fndings to obtain the total
+score. The total score places the patient in a
+group with a defned probability of cardiac
+complications, as shown in .Table 3.2. Ms.
+Troy receives a score of 20; thus, the clinician
+can estimate that the patient has a 27%
+chance of developing a severe cardiac complication.
+Objective estimates of pretest probability
+are subject to error because of bias in the
+studies on which the estimates are based. For
+..      Table 3.1 Diagnostic weights for assessing
+risk of cardiac complications from noncardiac
+surgery
+Clinical fnding Diagnostic
+weight
+Age greater than 70 years 5
+Recent documented heart
+attack
+>6 months previously 5
+<6 months previously 10
+Severe angina 20
+Pulmonary edemaa
+Within 1 week 10
+Ever 5
+Arrhythmia on most recent
+ECG 5
+>5 PVCs 5
+Critical aortic stenosis 20
+Poor medical condition 5
+Emergency surgery 10
+ECG electrocardiogram, PVCs premature ventricular contractions on preoperative electrocardiogram
+aFluid in the lungs due to reduced heart function
+Biomedical Decision Making: Probabilistic Clinical Reasoning
+86
+3
+instance, published prevalence data may not
+apply directly to a particular patient. A clinical illustration is that early studies indicated
+that a patient found to have microscopic evidence of blood in the urine (microhematuria)
+should undergo extensive tests because a signifcant proportion of the patients would be
+found to have cancer or other serious diseases.
+The tests involve some risk, discomfort, and
+expense to the patient. Nonetheless, the approach of ordering tests for any patient with
+microhematuria was widely practiced for
+some years. A later study, however, suggested
+that the probability of serious disease in asymptomatic patients with only microscopic
+evidence of blood was only about 2%. In the
+past, many patients may have undergone unnecessary tests, at considerable fnancial and
+personal cost.
+What explains the discrepancy in the estimates of disease prevalence? The initial studies
+that showed a high prevalence of disease in patients with microhematuria were performed on
+patients referred to urologists, who are specialists. The primary care clinician refers patients
+whom he or she suspects have a disease in the
+specialist’s sphere of expertise. Because of this
+initial screening by primary care clinicians, the
+specialists seldom see patients with clinical
+fndings that imply a low probability of disease. Thus, the prevalence of disease in the patient population in a specialist’s practice often
+is much higher than that in a primary care
+practice; studies performed with the former patients therefore almost always overestimate disease probabilities. This example demonstrates
+referral bias. Referral bias is common because
+many published studies are performed on patients referred to specialists. Thus, one may
+need to adjust published estimates before one
+uses them to estimate pretest probability in
+other clinical settings.
+We now can use the techniques discussed in
+this part of the chapter to illustrate how the clinician in 7Example 3.4 might estimate the pretest probability of heart disease in his or her
+patient, Mr. Smith, who has pressure-like chest
+pain. We begin by using the objective data that
+are available. The prevalence of heart disease in
+60-year-old men could be our starting point. In
+this case, however, we can obtain a more refned estimate by placing the patient in a clinical subgroup in which the prevalence of disease
+is known. The prevalence in a clinical subgroup, such as men with symptoms typical of
+coronary heart disease, will predict the pretest
+probability more accurately than would the
+prevalence of heart disease in a group that is
+heterogeneous with respect to symptoms, such
+as the population at large. We assume that large
+studies have shown the prevalence of coronary
+heart disease in men with typical symptoms of
+angina pectoris to be about 0.9; this prevalence
+is useful as an initial estimate that can be adjusted based on information specifc to the patient. Although the prevalence of heart disease
+in men with typical symptoms is high, 10% of
+patients with this history do not have heart disease.
+The clinician might use subjective methods to adjust his or her estimate further based
+on other specifc information about the patient. For example, the clinician might adjust
+his or her initial estimate of 0.9 upward to
+0.95 or higher based on information about
+family history of heart disease. The clinician
+should be careful, however, to avoid the mistakes that can occur when one uses heuristics
+to make subjective probability estimates. In
+particular, he or she should be aware of the
+tendency to stay too close to the initial estimate when adjusting for additional information. By combining subjective and objective
+methods for assessing pretest probability, the
+clinician can arrive at a reasonable estimate of
+the pretest probability of heart disease.
+..      Table 3.2 Clinical prediction rule for
+diagnostic weights in .Table 3.1
+Total score Prevalence (%) of cardiac
+complicationsa
+0–15 5
+20–30 27
+>30 60
+aCardiac complications defned as death, heart
+attack, or congestive heart failure
+D. K. Owens et al.
+87 3
+In this section, we summarized subjective
+and objective methods to determine the pretest probability, and we learned how to adjust
+the pretest probability after assessing the specifc subpopulation of which the patient is
+representative. The next step in the diagnostic
+process is to gather further information, usually in the form of formal diagnostic tests
+(laboratory tests, X-ray studies, etc.). To help
+you to understand this step more clearly, we
+discuss in the next two sections how to measure the accuracy of tests and how to use
+probability to interpret the results of the tests.
+3.3 Measurement of the Operating
+Characteristics of Diagnostic
+Tests
+The frst challenge in assessing any test is to
+determine criteria for deciding whether a result is normal or abnormal. In this section, we
+present the issues that you need to consider
+when making such a determination.
+3.3.1 Classifcation of Test Results
+as Abnormal
+Most biological measurements in a population of healthy people are continuous variables that assume different values for different
+individuals. The distribution of values often is
+approximated by the normal (gaussian, or
+bell-shaped) distribution curve (. Fig. 3.2).
+Thus, 95% of the population will fall within
+two standard deviations of the mean. About
+2.5% of the population will be more than two
+standard deviations from the mean at each
+end of the distribution. The distribution of
+values for ill individuals may be normally distributed as well. The two distributions usually
+overlap (see .Fig. 3.2).
+How is a test result classifed as abnormal?
+Most clinical laboratories report an “upper
+limit of normal,” which usually is defned as
+two standard deviations above the mean.
+Thus, a test result greater than two standard
+deviations above the mean is reported as abnormal (or positive); a test result below that
+cutoff is reported as normal (or negative). As
+an example, if the mean cholesterol concentration in the blood is 180 mg/dl, a clinical
+laboratory might choose as the upper limit of
+normal 220 mg/dl because it is two standard
+deviations above the mean. Note that a cutoff
+that is based on an arbitrary statistical criterion may not have biological signifcance.
+An ideal test would have no values at
+which the distribution of diseased and nondiseased people overlap. That is, if the cutoff
+value were set appropriately, the test would be
+normal in all healthy individuals and abnormal in all individuals with disease. Few tests
+meet this standard. If a test result is defned as
+False positives
+False negatives
+Abnormal
+Diseased
+population
+Cuto
+value
+Test result
+Healthy
+population
+Normal
+Number of
+individuals
+..      Fig. 3.2 Distribution of test results in healthy and
+diseased individuals. Varying the cutoff between “normal” and “abnormal” across the continuous range of
+possible values changes the relative proportions of false
+positives (FPs) and false negatives (FNs) for the two
+populations
+Biomedical Decision Making: Probabilistic Clinical Reasoning
+88
+3
+abnormal by the statistical criterion, 2.5% of
+healthy individuals will have an abnormal
+test. If there is an overlap in the distribution
+of test results in healthy and diseased individuals, some diseased patients will have a normal test (see . Fig. 3.2). You should be
+familiar with the terms used to denote these
+groups:
+5 A true positive (TP) is a positive test result
+obtained for a patient in whom the disease
+is present (the test result correctly classifes
+the patient as having the disease).
+5 A true negative (TN) is a negative test result obtained for a patient in whom the
+disease is absent (the test result correctly
+classifes the patient as not having the disease).
+5 A false positive (FP) is a positive test result
+obtained for a patient in whom the disease
+is absent (the test result incorrectly classifes the patient as having the disease).
+5 A false negative (FN) is a negative test result obtained for a patient in whom the
+disease is present (the test result incorrectly classifes the patient as not having the
+disease).
+.Figure 3.2 shows that varying the cutoff
+point (moving the vertical line in the fgure)
+for an abnormal test will change the relative
+proportions of these groups. As the cutoff is
+moved further up from the mean of the normal values, the number of FNs increases and
+the number of FPs decreases. Once we have
+chosen a cutoff point, we can conveniently
+summarize test performance—the ability to
+discriminate disease from nondisease—in a 2
+× 2 contingency table, as shown in .Table
+3.3. The table summarizes the number of patients in each group: TP, FP, TN, and FN.
+Note that the sum of the frst column is the
+total number of diseased patients, TP + FN.
+The sum of the second column is the total
+number of nondiseased patients, FP + TN.
+The sum of the frst row, TP + FP, is the total
+number of patients with a positive test result.
+Likewise, FN + TN gives the total number of
+patients with a negative test result.
+A perfect test would have no FN or FP results. Erroneous test results do occur, however, and you can use a 2 × 2 contingency table
+to defne the measures of test performance
+that refect these errors.
+3.3.2 Measures of Test Performance
+Measures of test performance are of two
+types: measures of agreement between tests or
+measures of concordance, and measures of
+disagreement or measures of discordance.
+Two types of concordant test results occur in
+the 2 × 2 table in .Table 3.3: TPs and TNs.
+The relative frequencies of these results form
+the basis of the measures of concordance.
+These measures correspond to the ideas of the
+sensitivity and specifcity of a test, which we
+introduced in 7Chap. 2. We defne each measure in terms of the 2 × 2 table and in terms of
+conditional probabilities.
+The true-positive rate (TPR), or sensitivity, is the likelihood that a diseased patient has
+a positive test. In conditional-probability notation, sensitivity is expressed as the probability of a positive test given that disease is
+present:
+p[ ] positive test|disease .
+Another way to think of the TPR is as a ratio.
+The likelihood that a diseased patient has a
+positive test is given by the ratio of diseased
+..      Table 3.3 A 2 × 2 contingency table for test
+results
+Results of
+test
+Disease
+present
+Disease
+absent
+Total
+Positive
+result
+TP FP TP + FP
+Negative
+result
+FN TN FN + TN
+TP + FN FP + TN
+TP true positive, TN true negative, FP false positive, FN false negative
+D. K. Owens et al.
+89 3
+patients with a positive test to all diseased patients:
+TPR
+number of diseased patients
+with positive test
+total number of d = iseased patients
+æ
+è
+ç
+ç
+ç
+ç
+ö
+ø
+÷
+÷
+÷
+÷
+.
+We can determine these numbers for our example from the 2 × 2 table (see .Table 3.3).
+The number of diseased patients with a positive test is TP. The total number of diseased
+patients is the sum of the frst column, TP +
+FN. So,
+TPR TP
+TP FN = + .
+The true-negative rate (TNR), or specifcity, is
+the likelihood that a nondiseased patient has a
+negative test result. In terms of conditional
+probability, specifcity is the probability of a
+negative test given that disease is absent:
+p[ ] negative test|no disease .
+Viewed as a ratio, the TNR is the number of
+nondiseased patients with a negative test divided by the total number of nondiseased patients:
+TNR
+Number of nondiseased patients
+with negative test
+Total number = of nondiseased
+patients
+æ
+è
+ç
+ç
+ç
+ç
+ö
+ø
+÷
+÷
+÷
+÷
+From the 2 × 2 table (see .Table 3.3),
+TNR TN
+TN FP = +
+The measures of discordance—the falsepositive rate (FPR) and the false-negative rate
+(FNR)—are defned similarly. The FNR is the
+likelihood that a diseased patient has a negative test result. As a ratio,
+FNR
+Number of diseased patients
+with negative test
+Total number of d = iseased patients
+FN
+FN TP
+æ
+è
+ç
+ç
+ç
+ç
+ö
+ø
+÷
+÷
+÷
+÷
+= + .
+..      Table 3.4 A 2 × 2 contingency table for HIV
+antibody EIA
+EIA test result Antibody
+present
+Antibody
+absent
+Total
+Positive EIA 98 3 101
+Negative EIA 2 297 299
+100 300
+EIA enzyme-linked immunoassay
+5 This example assumes that we have a perfect method
+(different from EIA) for determining the presence or
+absence of antibody. We discuss the idea of goldstandard tests in 7 Sect. 3.3.4. We have chosen the
+numbers in the example to simplify the calculations.
+In practice, the sensitivity and specifcity of the HIV
+EIAs are greater than 99%.
+The FPR is the likelihood that a nondiseased
+patient has a positive test result:
+FPR
+Number of nondiseased patients
+with positive test
+Total number = of nondiseased patients
+FP
+FP TN
+æ
+è
+ç
+ç
+ç
+ç
+ö
+ø
+÷
+÷
+÷
+÷
+= +
+► Example 3.6
+Consider again the problem of screening blood
+donors for HIV. One test used to screen blood
+donors for HIV antibody is an enzyme-linked
+immunoassay (EIA). So that the performance
+of the EIA can be measured, the test is performed on 400 patients; the hypothetical results
+are shown in the 2 × 2 table in .Table 3.4.
+5 ◄
+To determine test performance, we calculate
+the TPR (sensitivity) and TNR (specifcity) of
+the EIA antibody test. The TPR, as defned
+previously, is:
+TP
+TP + FN = + = 98
+98 2
+0 9. 8
+Thus, the likelihood that a patient with the
+HIV antibody will have a positive EIA test is
+Biomedical Decision Making: Probabilistic Clinical Reasoning
+90
+3
+0.98. If the test were performed on 100 patients who truly had the antibody, we would
+expect the test to be positive in 98 of the patients. Conversely, we would expect two of the
+patients to receive incorrect, negative results,
+for an FNR of 2%. (You should convince
+yourself that the sum of TPR and FNR by
+defnition must be 1: TPR + FNR = 1).
+And the TNR is:
+TN
+TN + FP = + = 297
+297 3
+0 9. 9
+The likelihood that a patient who has no HIV
+antibody will have a negative test is 0.99.
+Therefore, if the EIA test were performed on
+100 individuals who had not been infected
+with HIV, it would be negative in 99 and incorrectly positive in 1. (Convince yourself that
+the sum of TNR and FPR also must be 1:
+TNR + FPR = 1).
+3.3.3 Implications of Sensitivity
+and Specifcity: How to
+Choose Among Tests
+It may be clear to you already that the calculated values of sensitivity and specifcity for a
+continuous-valued test depend on the particular cutoff value chosen to distinguish normal
+and abnormal results. In .Fig. 3.2, note that
+increasing the cutoff level (moving it to the
+right) would decrease signifcantly the number
+of FP tests but also would increase the number of FN tests. Thus, the test would have become more specifc but less sensitive. Similarly,
+a lower cutoff value would increase the FPs
+and decrease the FNs, thereby increasing sensitivity while decreasing specifcity. Whenever
+a decision is made about what cutoff to use in
+calling a test abnormal, an inherent philosophic decision is being made about whether
+it is better to tolerate FNs (missed cases) or
+FPs (nondiseased people inappropriately classifed as diseased). The choice of cutoff depends on the disease in question and on the
+purpose of testing. If the disease is serious
+and if lifesaving therapy is available, we should
+try to minimize the number of FN results. On
+the other hand, if the disease in not serious
+and the therapy is dangerous, we should set
+the cutoff value to minimize FP results.
+We stress the point that sensitivity and specifcity are characteristics not of a test per se but
+rather of the test and a criterion for when to
+call that test abnormal. Varying the cutoff in .
+Fig. 3.2 has no effect on the test itself (the way
+it is performed, or the specifc values for any
+particular patient); instead, it trades off specifcity for sensitivity. Thus, the best way to characterize a test is by the range of values of
+sensitivity and specifcity that it can take on
+over a range of possible cutoffs. The typical
+way to show this relationship is to plot the test’s
+sensitivity against 1 minus specifcity (i.e., the
+TPR against the FPR), as the cutoff is varied
+and the two test characteristics are traded off
+against each other (.Fig. 3.3). The resulting
+curve, known as a receiver-operating characteristic (ROC) curve, was originally described by
+researchers investigating methods of electromagnetic-signal detection and was later applied to the feld of psychology (Peterson and
+Birdsall 1953; Swets 1973). Any given point
+along a ROC curve for a test corresponds to
+the test sensitivity and specifcity for a given
+threshold of “abnormality.” Similar curves can
+be drawn for any test used to associate ob0
+0
+0.5
+Test A
+Test B
+True-positive rate (sensitivity)
+1.0
+0.5
+False-positive rate (1- specicity)
+1.0
+..      Fig. 3.3 Receiver operating characteristic (ROC)
+curves for two hypothetical tests. Test B is more discriminative than test A because its curve is higher (e.g., the
+false-positive rate (FPR) for test B is lower than the
+FPR for test A at any value of true-positive rate (TPR)).
+However, the more discriminative test may not always be
+preferred in clinical practice (see text)
+D. K. Owens et al.
+91 3
+served clinical data with specifc diseases or disease categories.
+Suppose a new test were introduced that
+competed with the current way of screening
+for the presence of a disease. For example,
+suppose a new radiologic procedure for assessing the presence or absence of pneumonia
+became available. This new test could be assessed for trade-offs in sensitivity and specifcity, and an ROC curve could be drawn. As
+shown in .Fig. 3.3, a test has better discriminating power than a competing test if its ROC
+curve lies above that of the other test. In other
+words, test B is more discriminating than test
+A when its specifcity is greater than test A’s
+specifcity for any level of sensitivity (and
+when its sensitivity is greater than test A’s sensitivity for any level of specifcity).
+Understanding ROC curves is important
+in understanding test selection and data interpretation. Clinicians should not necessarily,
+however, always choose the test with the most
+discriminating ROC curve. Matters of cost,
+risk, discomfort, and delay also are important
+in the choice about what data to collect and
+what tests to perform. When you must choose
+among several available tests, you should select the test that has the highest sensitivity and
+specifcity, provided that other factors, such as
+cost and risk to the patient, are equal. The
+higher the sensitivity and specifcity of a test,
+the more the results of that test will reduce
+uncertainty about probability of disease.
+3.3.4 Design of Studies of Test
+Performance
+In 7Sect. 3.3.2, we discussed measures of test
+performance: a test’s ability to discriminate disease from no disease. When we classify a test
+result as TP, TN, FP, or FN, we assume that we
+know with certainty whether a patient is diseased or healthy. Thus, the validity of any test’s
+results must be measured against a gold standard: a test that reveals the patient’s true disease
+state, such as a biopsy of diseased tissue or a
+surgical operation. A gold-standard test is a procedure that is used to defne unequivocally the
+presence or absence of disease. The test whose
+discrimination is being measured is called the
+index test. The gold-standard test usually is
+more expensive, riskier, or more diffcult to perform than is the index test (otherwise, the less
+precise test would not be used at all).
+The performance of the index test is measured in a small, select group of patients enrolled
+in a study. We are interested, however, in how the
+test performs in the broader group of patients in
+which it will be used in practice. The test may
+perform differently in the two groups, so we
+make the following distinction: the study population comprises those patients (usually a subset
+of the clinically relevant population) in whom
+test discrimination is measured and reported;
+the clinically relevant population comprises those
+patients in whom a test typically is used.
+3.3.5 Bias in the Measurement of
+Test Characteristics
+We mentioned earlier the problem of referral
+bias. Published estimates of disease prevalence
+(derived from a study population) may differ
+from the prevalence in the clinically relevant
+population because diseased patients are more
+likely to be included in studies than are nondiseased patients. Similarly, published values of
+sensitivity and specifcity are derived from
+study populations that may differ from the clinically relevant populations in terms of average
+level of health and disease prevalence. These
+differences may affect test performance, so the
+reported values may not apply to many patients in whom a test is used in clinical practice.
+► Example 3.7
+In the early 1970s, a blood test called the carcinoembryonic antigen (CEA) was touted as
+a screening test for colon cancer. Reports of
+early investigations, performed in selected patients, indicated that the test had high sensitivity and specifcity. Subsequent work, however,
+proved the CEA to be completely valueless as a
+screening blood test for colon cancer. Screening
+tests are used in unselected populations, and
+the differences between the study and clinically
+relevant populations were partly responsible for
+the original miscalculations of the CEA’s TPR
+and TNR (Ransohoff and Feinstein 1978). ◄
+Biomedical Decision Making: Probabilistic Clinical Reasoning
+92
+3
+The experience with CEA has been repeated
+with numerous tests. Early measures of test
+discrimination are overly optimistic, and subsequent test performance is disappointing.
+Problems arise when the TPR and TNR, as
+measured in the study population, do not apply to the clinically relevant population. These
+problems usually are the result of bias in the design of the initial studies—notably spectrum
+bias, test referral bias, or test interpretation bias.
+Spectrum bias occurs when the study population includes only individuals who have advanced disease (“sickest of the sick”) and
+healthy volunteers, as is often the case when a
+test is frst being developed. Advanced disease
+may be easier to detect than early disease. For
+example, cancer is easier to detect when it has
+spread throughout the body (metastasized)
+than when it is localized to, say, a small portion
+of the colon. In contrast to the study population, the clinically relevant population will contain more cases of early disease that are more
+likely to be missed by the index test (FNs).
+Thus, the study population will have an artifactually low FNR, which produces an artifactually high TPR (TPR = 1 − FNR). In addition,
+healthy volunteers are less likely than are patients in the clinically relevant population to
+have other diseases that may cause FP results6;
+the study population will have an artifcially
+low FPR, and therefore the specifcity will be
+overestimated (TNR = 1 − FPR). Inaccuracies
+in early estimates of the TPR and TNR of the
+CEA were partly due to spectrum bias.
+Test-referral bias (sometimes referred to as
+referral bias) occurs when a positive index test
+is a criterion for ordering the gold standard
+test. In clinical practice, patients with negative
+index tests are less likely to undergo the gold
+standard test than are patients with positive
+tests. In other words, the study population,
+comprising individuals with positive index–test
+results, has a higher percentage of patients with
+disease than does the clinically relevant population. Therefore, both TN and FN tests will be
+underrepresented in the study population. The
+result is overestimation of the TPR and underestimation of the TNR in the study population.
+Test-interpretation bias develops when the
+interpretation of the index test affects that of the
+gold standard test or vice versa. This bias causes
+an artifcial concordance between the tests (the
+results are more likely to be the same) and spuriously increases measures of concordance—the
+sensitivity and specifcity—in the study population. (Remember, the relative frequencies of TPs
+and TNs are the basis for measures of concordance). To avoid these problems, the person interpreting the index test should be unaware of
+the results of the gold standard test.
+To counter these three biases, you may
+need to adjust the TPR and TNR when they
+are applied to a new population. All the biases
+result in a TPR that is higher in the study population than it is in the clinically relevant population. Thus, if you suspect bias, you should
+adjust the TPR (sensitivity) downward when
+you apply it to a new population.
+Adjustment of the TNR (specifcity) depends on which type of bias is present.
+Spectrum bias and test interpretation bias result in a TNR that is higher in the study population than it will be in the clinically relevant
+population. Thus, if these biases are present,
+you should adjust the specifcity downward
+when you apply it to a new population. Testreferral bias, on the other hand, produces a
+measured specifcity in the study population
+that is lower than it will be in the clinically relevant population. If you suspect test referral
+bias, you should adjust the specifcity upward
+when you apply it to a new population.
+3.3.6 Meta-Analysis of Diagnostic
+Tests
+Often, there are many studies that evaluate the
+sensitivity and specifcity of the same diagnostic
+test. If the studies come to similar conclusions
+6 Volunteers are often healthy, whereas patients in the
+clinically relevant population often have several diseases in addition to the disease for which a test is
+designed. These other diseases may cause FP test
+results. For example, patients with benign (rather
+than malignant) enlargement of their prostate
+glands are more likely than are healthy volunteers to
+have FP elevations of prostate-specifc antigen
+(Meigs et al. 1996), a substance in the blood that is
+elevated in men who have prostate cancer. Measurement of prostate-specifc antigen is often used to
+detect prostate cancer.
+D. K. Owens et al.
+93 3
+about the sensitivity and specifcity of the test,
+you can have increased confdence in the results
+of the studies. But what if the studies disagree?
+For example, by 1995, over 100 studies had assessed the sensitivity and specifcity of the PCR
+for diagnosis of HIV (Owens et al. 1996a, b);
+these studies estimated the sensitivity of PCR to
+be as low as 10% and to be as high as 100%, and
+they assessed the specifcity of PCR to be between 40 and 100%. Which results should you
+believe? One approach that you can use is to assess the quality of the studies and to use the estimates from the highest-quality studies.
+For evaluation of PCR, however, even the
+high-quality studies did not agree. Another approach is to perform a meta-analysis: a study
+that combines quantitatively the estimates
+from individual studies to develop a summary
+ROC curve (Moses et al. 1993; Owens et al.
+1996a, b; Hellmich et al. 1999; Leefang et al.
+2008; Leefang 2014). Investigators develop a
+summary ROC curve by using estimates from
+many studies, in contrast to the type of ROC
+curve discussed in 7Sect. 3.3.3, which is developed from the data in a single study. Summary
+ROC curves provide the best available approach to synthesizing data from many studies.
+7Section 3.3 has dealt with the second
+step in the diagnostic process: acquisition of
+further information with diagnostic tests. We
+have learned how to characterize the performance of a test with sensitivity (TPR) and specifcity (TNR). These measures reveal the
+probability of a test result given the true state of
+the patient. They do not, however, answer the
+clinically relevant question posed in the opening
+example: Given a positive test result, what is the
+probability that this patient has the disease? To
+answer this question, we must learn methods to
+calculate the post-test probability of disease.
+3.4 Post-test Probability: Bayes’
+Theorem and Predictive Value
+The third stage of the diagnostic process (see
+.Fig. 3.1a) is to adjust our probability estimate to take into account the new information gained from diagnostic tests by calculating
+the post-test probability.
+3.4.1 Bayes’ Theorem
+As we noted earlier in this chapter, a clinician can
+use the disease prevalence in the patient population as an initial estimate of the pretest risk of
+disease. Once clinicians begin to accumulate information about a patient, however, they revise
+their estimate of the probability of disease. The
+revised estimate (rather than the disease prevalence in the general population) becomes the pretest probability for the test that they perform.
+After they have gathered more information with
+a diagnostic test, they can calculate the post-test
+probability of disease with Bayes’ theorem.
+Bayes’ theorem is a quantitative method
+for calculating post-test probability using the
+pretest probability and the sensitivity and
+specifcity of the test. The theorem is derived
+from the defnition of conditional probability
+and from the properties of probability (see the
+Appendix to this chapter for the derivation).
+Recall that a conditional probability is the
+probability that event A will occur given that
+event B is known to occur (see 7Sect. 3.2). In
+general, we want to know the probability that
+disease is present (event A), given that the test is
+known to be positive (event B). We denote the
+presence of disease as D, its absence as − D, a
+test result as R, and the pretest probability of
+disease as p[D]. The probability of disease, given
+a test result, is written p[D|R]. Bayes’ theorem is:
+p D|R p D p R|D
+p D R|D p D p R| D [ ] = [ ]´ [ ]
+[ ]´ p[ ] + -[ ]´ - [ ]
+We can reformulate this general equation in
+terms of a positive test, (+), by substituting
+p[D|+] for p[D|R], p[+|D] for p[R|D], p[+| −
+D] for p[R| − D], and 1 − p[D] for p[− D].
+From 7Sect. 3.3, recall that p[+|D] = TPR
+and p[+| − D] = FPR. Substitution provides
+Bayes’ theorem for a positive test:
+p D| p D TPR
+p D TPR p D FPR [ ] + = [ ]´
+[ ]´ + ( ) 1- [ ] ´
+We can use a similar derivation to develop
+Bayes’ theorem for a negative test:
+p D| p D FNR
+p D FNR p D TNR [ ] - = [ ]´
+[ ]´ + ( ) 1- [ ] ´
+Biomedical Decision Making: Probabilistic Clinical Reasoning
+94
+3
+► Example 3.8
+We are now able to calculate the clinically important probability in 7Example 3.4: the posttest probability of heart disease after a positive
+exercise test. At the end of 7Sect. 3.2.2, we estimated the pretest probability of heart disease as
+0.95, based on the prevalence of heart disease in
+men who have typical symptoms of heart disease
+and on the prevalence in people with a family
+history of heart disease. Assume that the TPR
+and FPR of the exercise stress test are 0.65 and
+0.20, respectively. Substituting in Bayes’ formula
+for a positive test, we obtain the probability of
+heart disease given a positive test result:
+p[ ] D| + = ´
+´ + ´ = 0 95 0 65
+0 95 0 65 0 05 0 20
+0 98 . .
+. . . . . ◄
+Thus, the positive test raised the post-test probability to 0.98 from the pretest probability of
+0.95. The change in probability is modest because the pretest probability was high (0.95) and
+because the FPR also is high (0.20). If we repeat
+the calculation with a pretest probability of 0.75,
+the post-test probability is 0.91. If we assume
+the FPR of the test to be 0.05 instead of 0.20, a
+pretest probability of 0.95 changes to 0.996.
+3.4.2 The Odds-Ratio Form of Bayes’
+Theorem and Likelihood
+Ratios
+Although the formula for Bayes’ theorem is
+straightforward, it is awkward for mental calculations. We can develop a more convenient
+form of Bayes’ theorem by expressing probability as odds and by using a different measure
+of test discrimination. Probability and odds
+are related as follows:
+odds p
+p
+p
+odds
+odds
+= -
+= +
+1
+1
+,
+.
+Thus, if the probability of rain today is 0.75,
+the odds are 3:1. Thus, on similar days, we
+should expect rain to occur three times for
+each time it does not occur.
+A simple relationship exists between
+pre-test odds and post-test odds:
+7 Some authors refer to this expression as the oddslikelihood form of Bayes’ theorem.
+post-test odds = ´ pretest odds likelihood ratio
+or
+p
+p
+p
+p
+p
+p
+D|R
+D|R
+D
+D
+R|D
+R| D
+[ ]
+[ ] - = [ ]
+[ ] - ´ [ ]
+[ ] - .
+This equation is the odds-ratio form of Bayes’
+theorem.7 It can be derived in a straightforward fashion from the defnitions of Bayes’
+theorem and of conditional probability that
+we provided earlier. Thus, to obtain the posttest odds, we simply multiply the pre-test odds
+by the likelihood ratio (LR) for the test in
+question.
+The LR of a test combines the measures
+of test discrimination discussed earlier to give
+one number that characterizes the discriminatory power of a test, defned as:
+LR R|D
+R| D = [ ]
+[ ] -
+p
+p
+or
+LR
+probability of result
+in diseased people
+probability of result
+i
+=
+n nondiseased people
+The LR indicates the amount that the odds of
+disease change based on the test result. We
+can use the LR to characterize clinical fndings (such as a swollen leg) or a test result. We
+describe the performance of a test that has
+only two possible outcomes (e.g., positive or
+negative) by two LRs: one corresponding to a
+positive test result and the other corresponding to a negative test. These ratios are abbreviated LR+and LR−, respectively.
+LR
+probability that test
+is positive in
+diseased people
+probabil
++ =
+ity that test
+is positive in
+nondiseased people
+æ
+è
+ç
+ç
+ç
+ç
+ç
+ç
+ç
+ö
+ø
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+= TPR
+FPR
+D. K. Owens et al.
+95 3
+In a test that discriminates well between disease and nondisease, the TPR will be high, the
+FPR will be low, and thus LR+will be much
+greater than 1. A LR of 1 means that the
+probability of a test result is the same in diseased and nondiseased individuals; the test
+has no value. Similarly,
+LR
+probability that test
+is negative in
+diseased people
+probabil - = ity that test
+is negative in
+nondiseased people
+æ
+è
+ç
+ç
+ç
+ç
+ç
+ç
+ç
+ö
+ø
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+= FNR
+TNR
+A desirable test will have a low FNR and a
+high TNR; therefore, the LR−will be much
+less than 1.
+► Example 3.9
+We can calculate the post-test probability for
+a positive exercise stress test in a 70 year-old
+woman whose pretest probability is 0.75. The
+pretest odds are:
+odds = or - = - = = p
+1 p
+0 75
+1 0 75
+0 75
+0 25
+3 3 1 .
+.
+.
+. , :
+The LR for the stress test is:
+LR TPR
+FPR
++ = = = 0 65
+0 20
+3 25 .
+. .
+We can calculate the post-test odds of a positive test result using the odds-ratio form of
+Bayes’ theorem:
+post-test odds = = 3 3 ´ . . 25 9 75 1:
+We can then convert the odds to a probability:
+p
+odds
+odds = + = + = 1
+9 75
+1 9 75
+0 91 .
+. . ◄
+As expected, this result agrees with our earlier
+answer (see the discussion of 7Example 3.8).
+The odds-ratio form of Bayes’ theorem
+allows rapid calculation. The LR is a powerful method for characterizing the operating
+characteristics of a test: if you know the
+pretest odds, you can calculate the post-test
+odds in one step. The LR demonstrates that
+a useful test is one that changes the odds of
+disease.
+3.4.3 Predictive Value of a Test
+An alternative approach for estimation of the
+probability of disease in a person who has a
+positive or negative test is to calculate the predictive value of the test. The positive predictive value (PV+) of a test is the likelihood that
+a patient who has a positive test result also has
+disease. Thus, PV+can be calculated directly
+from a 2 × 2 contingency table:
+PV
+number of diseased patients
+with positive test
+total number of p
++ =
+atients
+with a positive test
+From the 2 × 2 contingency table in .Table
+3.3,
+PV TP
+TP FP
++ =
++
+The negative predictive value (PV−) is the likelihood that a patient with a negative test does
+not have disease:
+PV
+number of nondiseased patients
+with negative test
+Total number - = of patients
+with a negative test
+From the 2 × 2 contingency table in .Table 3.3,
+PV TN
+TN FN
